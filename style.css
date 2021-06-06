@@ -1,0 +1,143 @@
+#container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#border {
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  width: 306px;
+  height: 306px;
+  z-index: -1;
+  border-radius: 50%;
+  border: 4px solid black;
+}
+
+#orangeglass {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: #E96A2B;
+  border: 4px solid white;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+#leftshadow {
+  position: absolute;
+  opacity: .8;
+  left: 30px;
+  top: 20px;
+  width: 280px;
+  height: 270px;
+  border-radius: 50%;
+  box-shadow: -50px 0 30px 0 #EE923C;
+  z-index: 2;    
+}
+
+#righthighlight {
+  positon: absolute;
+  background-color: #fff;
+  opacity: .5;
+  left: 110px;
+  top: 110px;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  box-shadow: 0 0 40px 30px #fff;
+  z-index: 2;
+}
+
+#middlehighlight {
+  position: absolute;
+  left: 114px;
+  top: 150px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 30px 10px 40px 10px #E76431;
+  z-index: 3;  
+}
+
+#bigrightreflect {
+  position: absolute;
+  background-color: #fff;
+  left: 190px;
+  top: 40px;
+  width: 60px;
+  height: 60px;
+  z-index: 3;
+}
+
+#midrightreflect {
+  position: absolute;
+  background-color: #fff;
+  left: 140px;
+  top: 35px;
+  width: 30px;
+  height: 30px;
+  z-index: 3; 
+}
+
+#smallrightreflect {
+  position: absolute;
+  background-color: #fff;
+  left: 180px;
+  top: 25px;
+  width: 10px;
+  height: 10px;
+  z-index: 3;
+}
+
+#tinyrightreflect {
+  position: absolute;
+  background-color: #fff;
+  left: 180px;
+  top: 17px;
+  width: 5px;
+  height: 5px;
+  z-index: 3; 
+}
+
+#midleftreflect {
+  positon: absolute;
+  background-color: #fff;
+  left: 70px;
+  top: 210px;
+  width: 10px;
+  height: 10px;
+  z-index: 3;
+}
+
+.#igleftreflect {
+  positon: absolute;
+  background-color: #fff;
+  left: 65px;
+  top: 225px;
+  width: 40px;
+  height: 40px;
+  z-index: 3;
+}
+
+#smallleftreflect {
+  position: absolute;
+  background-color: #fff;
+  left: 56px;
+  top: 212px;
+  width: 5px;
+  height: 5px;
+  z-index: 3;
+}
+
+.circle {
+  border-radius: 50%;
+  box-shadow: 20px 10px 40px 10px rgba(0, 0, 0, .5);
+}
+
+.op-circle {
+  border-radius: 50%;
+  box-shadow: -20px 10px 40px 10px rgba(0, 0, 0, .5);
+}
